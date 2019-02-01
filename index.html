@@ -9,17 +9,17 @@
   <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS"
     crossorigin="anonymous">
-
+  <link rel="stylesheet" href="styles/style.css">
 </head>
 
 <body>
   <div class="container-fluid">
-    <div class="row">
-      <div class="col-9 offset-2 nav d-flex justify-content-between">
+    <section class="row">
+      <div class="col-10 offset-1 nav d-flex flex-column flex-sm-row justify-content-sm-between">
         <div>
           <h1>ICON</h1>
         </div>
-        <div>
+        <div class="d-none d-sm-block">
           <ul class="nav list-unstyled list-inline">
             <li class="nav-item"><a href="#" class="nav-link">one</a></li>
             <li class="nav-item"><a href="#" class="nav-link">two</a></li>
@@ -29,15 +29,93 @@
             <li class="nav-item"><a href="#" class="nav-link">six</a></li>
           </ul>
         </div>
+        <div class="d-sm-none">
+          <ul class="nav list-unstyled flex-column">
+            <a href="#" class="nav-link">one</a>
+            <a href="#" class="nav-link">two</a>
+            <a href="#" class="nav-link">three</a>
+            <a href="#" class="nav-link">four</a>
+            <a href="#" class="nav-link">five</a>
+            <a href="#" class="nav-link">six</a>
+          </ul>
+        </div>
       </div>
-    </div>
-    <div class="row">
-      <div class="col-5 offset-1">
-        <h1 class="text-white">Title</h1>
-        <p class="text-white"></p>
+    </section>
+    <section class="row">
+      <div class="col text-center">
+        <div class="row bg-dark">
+          <div class="col col-sm-5 offset-sm-1 d-flex flex-column align-items-center">
+            <h3 class="text-white">Title</h3>
+            <p class="text-white"></p>
+          </div>
+        </div>
       </div>
-      <div class="col-5 offset-1"></div>
-    </div>
+    </section>
+    <section class="row bg-light mt-1">
+      <div class="col-10 offset-1">
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Animi voluptates cum vel? Consequuntur sit, amet
+          ex iste quidem dolore nesciunt eos, a corrupti veritatis cum earum adipisci ad laboriosam deleniti!</p>
+      </div>
+    </section>
+    <section class="row">
+      <div class="col">
+        <div class="row">
+          <div class="col-10 offset-1 col-sm-8 offset-2">
+            <div class="row">
+              <div class="col-12 col-sm-4">
+                <div class="d-flex align-items-center">
+                  <div>
+                    <div>
+                      <img class="w-100" src="//lorempixel.com/300/300" alt="">
+                    </div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-sm-4">
+                <div class="d-flex align-items-center">
+                  <div>
+                    <div>
+                      <img class="w-100" src="//lorempixel.com/300/300" alt="">
+                    </div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-sm-4">
+                <div class="d-flex align-items-center">
+                  <div>
+                    <div>
+                      <img class="w-100" src="//lorempixel.com/300/300" alt="">
+                    </div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer class="row bg-dark text-light">
+      <div class="col col-sm-4 offset-sm-1">
+        <ul class="nav">
+          <li class="nav-item"><a href="#" class="nav-link">one</a></li>
+          <li class="nav-item"><a href="#" class="nav-link">two</a></li>
+          <li class="nav-item"><a href="#" class="nav-link">three</a></li>
+        </ul>
+      </div>
+      <div class="col col-sm-6 offset-sm-1 text-light">
+        <div class="row d-flex">
+          <div class="col col-sm-6">
+            <p>123.456.7890 <br>fake.mail@gmail.com</p>
+          </div>
+          <div class="col col-sm-6">
+            <p>1234 Happy Road <br>Denver, CO 12345</p>
+          </div>
+        </div>
+      </div>
+    </footer>
   </div>
 </body>
 
