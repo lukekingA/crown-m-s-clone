@@ -1,4 +1,38 @@
+body,
+html {
+  font-family: "Montserrat", sans-serif;
+}
+
 a {
   color: rgb(194, 194, 194);
   text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+}
+
+#main-banner {
+  height: 40vh;
+  background-size: cover;
+}
+.white-card {
+  box-shadow: 0 0 15px rgba(53, 53, 53, 0.5);
+}
+#caro-1 {
+  height: 40vh;
+  background-image: url("../images/castor-oil-bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#caro-2 {
+  height: 40vh;
+  background-image: url("../images/castor_oil-bg2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#caro-3 {
+  height: 40vh;
+  background-image: url("../images/castor-oil-bg3.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.text-shade {
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.514);
 }

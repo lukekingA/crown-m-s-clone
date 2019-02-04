@@ -1,122 +1,250 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Crown Maple</title>
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat"
+      rel="stylesheet"
+    />
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Crown Maple</title>
-  <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS"
-    crossorigin="anonymous">
-  <link rel="stylesheet" href="styles/style.css">
-</head>
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.7.1/css/all.css"
+      integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
+      integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="styles/style.css" />
+  </head>
 
-<body>
-  <div class="container-fluid">
-    <section class="row">
-      <div class="col-10 offset-1 nav d-flex flex-column flex-sm-row justify-content-sm-between">
-        <div>
-          <h1>ICON</h1>
-        </div>
-        <div class="d-none d-sm-block">
-          <ul class="nav list-unstyled list-inline">
-            <li class="nav-item"><a href="#" class="nav-link">one</a></li>
-            <li class="nav-item"><a href="#" class="nav-link">two</a></li>
-            <li class="nav-item"><a href="#" class="nav-link">three</a></li>
-            <li class="nav-item"><a href="#" class="nav-link">four</a></li>
-            <li class="nav-item"><a href="#" class="nav-link">five</a></li>
-            <li class="nav-item"><a href="#" class="nav-link">six</a></li>
-          </ul>
-        </div>
-        <div class="d-sm-none">
-          <ul class="nav list-unstyled flex-column">
-            <a href="#" class="nav-link">one</a>
-            <a href="#" class="nav-link">two</a>
-            <a href="#" class="nav-link">three</a>
-            <a href="#" class="nav-link">four</a>
-            <a href="#" class="nav-link">five</a>
-            <a href="#" class="nav-link">six</a>
-          </ul>
-        </div>
-      </div>
-    </section>
-    <section class="row">
-      <div class="col text-center">
-        <div class="row bg-dark">
-          <div class="col col-sm-5 offset-sm-1 d-flex flex-column align-items-center">
-            <h3 class="text-white">Title</h3>
-            <p class="text-white"></p>
+  <body>
+    <div class="container-fluid">
+      <header class="row  bg-light">
+        <div
+          class="col-10 offset-1 nav d-flex flex-sm-row justify-content-between"
+        >
+          <div>
+            <h1><i class="fas fa-crown"></i></h1>
+          </div>
+          <div class="d-none d-sm-block">
+            <ul class="nav list-unstyled list-inline">
+              <li class="nav-item"><a href="#" class="nav-link">History</a></li>
+              <li class="nav-item"><a href="#" class="nav-link">Store</a></li>
+              <li class="nav-item"><a href="#" class="nav-link">Contact</a></li>
+              <li class="nav-item">
+                <a href="#" class="nav-link">Testimonials</a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="d-sm-none">
+            <nav
+              class="navbar navbar-expand-lg navbar-light bg-light justify-content-end"
+            >
+              <button
+                class="navbar-toggler collapsed d-flex"
+                type="button"
+                data-toggle="collapse"
+                data-target="#drop-menu1"
+              >
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="navbar-collapse collapse" id="drop-menu1">
+                <ul class="navbar-nav mt-2">
+                  <li class="nav-item">
+                    <a href="" class="nav-link">History</a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="" class="nav-link">Store</a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="" class="nav-link">Contact</a>
+                  </li>
+                  <li>
+                    <a href="" class="nav-link">Testimonials</a>
+                  </li>
+                </ul>
+              </div>
+            </nav>
           </div>
         </div>
-      </div>
-    </section>
-    <section class="row bg-light mt-1">
-      <div class="col-10 offset-1">
-        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Animi voluptates cum vel? Consequuntur sit, amet
-          ex iste quidem dolore nesciunt eos, a corrupti veritatis cum earum adipisci ad laboriosam deleniti!</p>
-      </div>
-    </section>
-    <section class="row">
-      <div class="col">
-        <div class="row">
-          <div class="col-10 offset-1 col-sm-8 offset-2">
-            <div class="row">
-              <div class="col-12 col-sm-4">
-                <div class="d-flex align-items-center">
-                  <div>
-                    <div>
-                      <img class="w-100" src="//lorempixel.com/300/300" alt="">
-                    </div>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+      </header>
+      <section id="main-banner" class="row">
+        <div class="col text-center">
+          <div class="row h-100">
+            <div
+              id="main-carousel"
+              class="carousel slide w-100"
+              data-ride="carousel"
+            >
+              <div class="carousel-inner">
+                <div id="caro-1" class="carousel-item active">
+                  <div
+                    class="col col-sm-5 offset-sm-1 d-flex flex-column align-content-center justify-content-center pt-2 pt-sm-0"
+                  >
+                    <h3 class="text-white text-shade">Golden Castor Oil</h3>
+                    <p class="text-white text-shade">
+                      Pure enough to cure <b>all</b> your ills
+                    </p>
                   </div>
                 </div>
-              </div>
-              <div class="col-12 col-sm-4">
-                <div class="d-flex align-items-center">
-                  <div>
-                    <div>
-                      <img class="w-100" src="//lorempixel.com/300/300" alt="">
-                    </div>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <div id="caro-2" class="carousel-item">
+                  <div
+                    class="col col-sm-5 offset-sm-1 d-flex flex-column align-content-center justify-content-center pt-2 pt-sm-0"
+                  >
+                    <h3 class="text-white text-shade">Golden Castor Oil</h3>
+                    <p class="text-white text-shade">
+                      Pure enough to cure <b>all</b> your ills
+                    </p>
                   </div>
                 </div>
-              </div>
-              <div class="col-12 col-sm-4">
-                <div class="d-flex align-items-center">
-                  <div>
-                    <div>
-                      <img class="w-100" src="//lorempixel.com/300/300" alt="">
-                    </div>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <div id="caro-3" class="carousel-item">
+                  <div
+                    class="col col-sm-5 offset-sm-1 d-flex flex-column align-content-center justify-content-center pt-2 pt-sm-0"
+                  >
+                    <h3 class="text-white text-shade">Golden Castor Oil</h3>
+                    <p class="text-white text-shade">
+                      Pure enough to cure <b>all</b> your ills
+                    </p>
                   </div>
                 </div>
               </div>
             </div>
           </div>
         </div>
-      </div>
-    </section>
-    <footer class="row bg-dark text-light">
-      <div class="col col-sm-4 offset-sm-1">
-        <ul class="nav">
-          <li class="nav-item"><a href="#" class="nav-link">one</a></li>
-          <li class="nav-item"><a href="#" class="nav-link">two</a></li>
-          <li class="nav-item"><a href="#" class="nav-link">three</a></li>
-        </ul>
-      </div>
-      <div class="col col-sm-6 offset-sm-1 text-light">
-        <div class="row d-flex">
-          <div class="col col-sm-6">
-            <p>123.456.7890 <br>fake.mail@gmail.com</p>
-          </div>
-          <div class="col col-sm-6">
-            <p>1234 Happy Road <br>Denver, CO 12345</p>
+      </section>
+      <section class="row bg-light my-3">
+        <div class="col-10 offset-1 white-card p-2">
+          <p>
+            We at Golden Castor Oil refine the purest castor oil on the planet
+            for our customers. Our products have speak for themselves when you
+            see the results. That's why we are going to give you your first
+            order to prove our products. We are confident that once our products
+            are tried we will have a customer for the long term.
+          </p>
+          <blockquote>
+            <p>
+              I was sick with craposis for three years. Thanks to Golden Castor
+              Oil I no longer suffer. I tried every other one that there was to
+              no avail. Thank you Golden Castor Oil.
+            </p>
+          </blockquote>
+          <cite>Betty Johnson - New Market, Bungland</cite>
+        </div>
+      </section>
+      <section class="row">
+        <div class="col">
+          <div class="row">
+            <div class="col-10 offset-1 col-sm-8 offset-2">
+              <div class="row">
+                <div class="col-12 col-sm-4">
+                  <div class="d-flex align-items-center">
+                    <div>
+                      <div>
+                        <figure>
+                          <a href="#">
+                            <img
+                              class="w-100"
+                              src="//lorempixel.com/300/300"
+                              alt=""
+                            />
+                          </a>
+                          <figcaption>
+                            <small>consectetur adipisicing elit</small>
+                          </figcaption>
+                        </figure>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-12 col-sm-4">
+                  <div class="d-flex align-items-center">
+                    <div>
+                      <div>
+                        <figure>
+                          <a href="#">
+                            <img
+                              class="w-100"
+                              src="//lorempixel.com/300/300"
+                              alt=""
+                            />
+                          </a>
+                          <figcaption>
+                            <small>sit amet consectetur</small>
+                          </figcaption>
+                        </figure>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-12 col-sm-4">
+                  <div class="d-flex align-items-center">
+                    <div>
+                      <div>
+                        <figure>
+                          <a href="#">
+                            <img
+                              class="w-100"
+                              src="//lorempixel.com/300/300"
+                              alt=""
+                            />
+                          </a>
+                          <figcaption>
+                            <small>Lorem ipsum dolor sit</small>
+                          </figcaption>
+                        </figure>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
-      </div>
-    </footer>
-  </div>
-</body>
-
+      </section>
+      <footer class="row bg-dark text-light">
+        <div class="col col-sm-4 offset-sm-1">
+          <ul class="nav">
+            <li class="nav-item"><a href="#" class="nav-link">one</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">two</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">three</a></li>
+          </ul>
+        </div>
+        <div class="col col-sm-6 offset-sm-1 text-light">
+          <div class="row d-flex">
+            <div class="col col-sm-6">
+              <p>123.456.7890 <br />fake.mail@gmail.com</p>
+            </div>
+            <div class="col col-sm-6">
+              <p>1234 Happy Road <br />Denver, CO 12345</p>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"
+      integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"
+      integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
